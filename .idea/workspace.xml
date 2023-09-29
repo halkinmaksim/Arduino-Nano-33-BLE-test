@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="ble_test" targetName="footprint" />
+      <config projectName="ble_test" targetName="lib__libc__common" />
+      <config projectName="ble_test" targetName="arch__arm__core__aarch32" />
+      <config projectName="ble_test" targetName="arch__arm__core__aarch32__cortex_m" />
+      <config projectName="ble_test" targetName="linker" />
+      <config projectName="ble_test" targetName="drivers__console" />
+      <config projectName="ble_test" targetName="config-twister" />
+      <config projectName="ble_test" targetName="compiler" />
+      <config projectName="ble_test" targetName="zephyr_generated_headers" />
+      <config projectName="ble_test" targetName="boards__arm__arduino_nano_33_ble" />
+      <config projectName="ble_test" targetName="drivers__serial" />
+      <config projectName="ble_test" targetName="snippets" />
+      <config projectName="ble_test" targetName="devicetree_target" />
+      <config projectName="ble_test" targetName="pristine" />
+      <config projectName="ble_test" targetName="kernel" />
+      <config projectName="ble_test" targetName="drivers__clock_control" />
+      <config projectName="ble_test" targetName="zephyr_final" />
+      <config projectName="ble_test" targetName="hardenconfig" />
+      <config projectName="ble_test" targetName="modules__hal_nordic__nrfx" />
+      <config projectName="ble_test" targetName="menuconfig" />
+      <config projectName="ble_test" targetName="zephyr_property_target" />
+      <config projectName="ble_test" targetName="arch__common" />
+      <config projectName="ble_test" targetName="arch__arm__core__aarch32__mpu" />
+      <config projectName="ble_test" targetName="code_data_relocation_target" />
+      <config projectName="ble_test" targetName="..__nrf__lib__fatal_error" />
+      <config projectName="ble_test" targetName="lib__posix" />
+      <config projectName="ble_test" targetName="offsets_h" />
+      <config projectName="ble_test" targetName="boards" />
+      <config projectName="ble_test" targetName="zephyr" />
+      <config projectName="ble_test" targetName="usage" />
+      <config projectName="ble_test" targetName="lib__libc__minimal" />
+      <config projectName="ble_test" targetName="drivers__timer" />
+      <config projectName="ble_test" targetName="soc__arm__common__cortex_m" />
+      <config projectName="ble_test" targetName="kobj_types_h_target" />
+      <config projectName="ble_test" targetName="drivers__pinctrl" />
+      <config projectName="ble_test" targetName="zephyr_pre0" />
+      <config projectName="ble_test" targetName="zephyr_pre1" />
+      <config projectName="ble_test" targetName="flash" />
+      <config projectName="ble_test" targetName="linker_zephyr_prebuilt_script_target" />
+      <config projectName="ble_test" targetName="runners_yaml_props_target" />
+      <config projectName="ble_test" targetName="compiler-cpp" />
+      <config projectName="ble_test" targetName="linker_zephyr_pre0_script" />
+      <config projectName="ble_test" targetName="parse_syscalls_target" />
+      <config projectName="ble_test" targetName="ram_report" />
+      <config projectName="ble_test" targetName="snippets_scope" />
+      <config projectName="ble_test" targetName="guiconfig" />
+      <config projectName="ble_test" targetName="driver_validation_h_target" />
+      <config projectName="ble_test" targetName="linker_zephyr_final_script_target" />
+      <config projectName="ble_test" targetName="attach" />
+      <config projectName="ble_test" targetName="..__nrf__drivers__hw_cc310" />
+      <config projectName="ble_test" targetName="bintools" />
+      <config projectName="ble_test" targetName="app" />
+      <config projectName="ble_test" targetName="version_h" />
+      <config projectName="ble_test" targetName="offsets" />
+      <config projectName="ble_test" targetName="run" />
+      <config projectName="ble_test" targetName="soc__arm__nordic_nrf__nrf52" />
+      <config projectName="ble_test" targetName="debugserver" />
+      <config projectName="ble_test" targetName="drivers__gpio" />
+      <config projectName="ble_test" targetName="shields" />
+      <config projectName="ble_test" targetName="syscall_list_h_target" />
+      <config projectName="ble_test" targetName="app_subimage" />
+      <config projectName="ble_test" targetName="drivers__interrupt_controller" />
+      <config projectName="ble_test" targetName="asm" />
+      <config projectName="ble_test" targetName="isr_tables" />
+      <config projectName="ble_test" targetName="debug" />
+      <config projectName="ble_test" targetName="rom_report" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="ZDebug-Zephyr" ENABLED="true" CONFIG_NAME="ZDebug" TOOLCHAIN_NAME="Zephyr" GENERATION_OPTIONS="-G Ninja">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="BOARD" value="arduino_nano_33_ble" />
+            <env name="ZEPHYR_BASE" value="D:\nRF\nsc\v2.4.0\zephyr" />
+            <env name="PATH" value="D:\nRF\nsc\toolchains\31f4403e35" />
+            <env name="GIT_EXEC_PATH" value="%GIT_EXEC_PATH%" />
+            <env name="ZEPHYR_TOOLCHAIN_VARIANT" value="zephyr" />
+            <env name="GNUARMEMB_TOOLCHAIN_PATH" value="%GNUARMEMB_TOOLCHAIN_PATH%" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94c9e4ec-8ecd-4849-8380-b516d439abac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:ZDebug-Zephyr" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.4" />
+  </component>
+  <component name="ProjectId" id="2R650CWmUFbpaeAYgsJEECC6LzU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "cf.advertisement.text.has.clang-format": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "D:/github_g/nano33",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CMakeSettings"
+  }
+}]]></component>
+  <component name="RunManager" selected="CMake Application.zephyr_final">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="..__nrf__drivers__hw_cc310" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="..__nrf__drivers__hw_cc310" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="..__nrf__lib__fatal_error" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="..__nrf__lib__fatal_error" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="app" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app_subimage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="app_subimage" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arch__arm__core__aarch32" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="arch__arm__core__aarch32" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arch__arm__core__aarch32__cortex_m" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="arch__arm__core__aarch32__cortex_m" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arch__arm__core__aarch32__mpu" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="arch__arm__core__aarch32__mpu" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arch__common" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="arch__common" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="asm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="asm" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="attach" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="attach" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bintools" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="bintools" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boards" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="boards" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boards__arm__arduino_nano_33_ble" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="boards__arm__arduino_nano_33_ble" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="code_data_relocation_target" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="code_data_relocation_target" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="compiler-cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="compiler-cpp" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="compiler" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="compiler" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="config-twister" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="config-twister" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="debug" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="debug" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="debugserver" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="debugserver" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="devicetree_target" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="devicetree_target" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="driver_validation_h_target" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="driver_validation_h_target" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="drivers__clock_control" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="drivers__clock_control" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="drivers__console" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="drivers__console" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="drivers__gpio" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="drivers__gpio" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="drivers__interrupt_controller" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="drivers__interrupt_controller" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="drivers__pinctrl" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="drivers__pinctrl" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="drivers__serial" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="drivers__serial" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="drivers__timer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="drivers__timer" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="flash" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="flash" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="footprint" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="footprint" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="guiconfig" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="guiconfig" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hardenconfig" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="hardenconfig" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="isr_tables" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="isr_tables" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kernel" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="kernel" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kobj_types_h_target" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="kobj_types_h_target" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lib__libc__common" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="lib__libc__common" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lib__libc__minimal" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="lib__libc__minimal" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lib__posix" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="lib__posix" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="linker" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="linker" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="linker_zephyr_final_script_target" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="linker_zephyr_final_script_target" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="linker_zephyr_pre0_script" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="linker_zephyr_pre0_script" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="linker_zephyr_prebuilt_script_target" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="linker_zephyr_prebuilt_script_target" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="menuconfig" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="menuconfig" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="modules__hal_nordic__nrfx" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="modules__hal_nordic__nrfx" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="offsets" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="offsets" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="offsets_h" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="offsets_h" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="parse_syscalls_target" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="parse_syscalls_target" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pristine" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="pristine" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ram_report" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="ram_report" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rom_report" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="rom_report" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="run" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="runners_yaml_props_target" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="runners_yaml_props_target" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shields" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="shields" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="snippets" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="snippets" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="snippets_scope" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="snippets_scope" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="soc__arm__common__cortex_m" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="soc__arm__common__cortex_m" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="soc__arm__nordic_nrf__nrf52" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="soc__arm__nordic_nrf__nrf52" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="syscall_list_h_target" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="syscall_list_h_target" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="usage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="usage" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="version_h" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="version_h" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zephyr" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="zephyr" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zephyr_final" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="zephyr_final" CONFIG_NAME="ZDebug-Zephyr" RUN_TARGET_PROJECT_NAME="ble_test" RUN_TARGET_NAME="zephyr_final">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zephyr_generated_headers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="zephyr_generated_headers" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zephyr_pre0" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="zephyr_pre0" CONFIG_NAME="ZDebug-Zephyr" RUN_TARGET_PROJECT_NAME="ble_test" RUN_TARGET_NAME="zephyr_pre0">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zephyr_pre1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="zephyr_pre1" CONFIG_NAME="ZDebug-Zephyr" RUN_TARGET_PROJECT_NAME="ble_test" RUN_TARGET_NAME="zephyr_pre1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zephyr_property_target" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ble_test" TARGET_NAME="zephyr_property_target" CONFIG_NAME="ZDebug-Zephyr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.app" />
+      <item itemvalue="CMake Application.asm" />
+      <item itemvalue="CMake Application.bintools" />
+      <item itemvalue="CMake Application.boards" />
+      <item itemvalue="CMake Application.code_data_relocation_target" />
+      <item itemvalue="CMake Application.compiler" />
+      <item itemvalue="CMake Application.compiler-cpp" />
+      <item itemvalue="CMake Application.config-twister" />
+      <item itemvalue="CMake Application.devicetree_target" />
+      <item itemvalue="CMake Application.guiconfig" />
+      <item itemvalue="CMake Application.hardenconfig" />
+      <item itemvalue="CMake Application.linker" />
+      <item itemvalue="CMake Application.menuconfig" />
+      <item itemvalue="CMake Application.pristine" />
+      <item itemvalue="CMake Application.runners_yaml_props_target" />
+      <item itemvalue="CMake Application.shields" />
+      <item itemvalue="CMake Application.snippets" />
+      <item itemvalue="CMake Application.snippets_scope" />
+      <item itemvalue="CMake Application.zephyr_property_target" />
+      <item itemvalue="CMake Application.app_subimage" />
+      <item itemvalue="CMake Application...__nrf__drivers__hw_cc310" />
+      <item itemvalue="CMake Application...__nrf__lib__fatal_error" />
+      <item itemvalue="CMake Application.driver_validation_h_target" />
+      <item itemvalue="CMake Application.kobj_types_h_target" />
+      <item itemvalue="CMake Application.linker_zephyr_final_script_target" />
+      <item itemvalue="CMake Application.linker_zephyr_pre0_script" />
+      <item itemvalue="CMake Application.linker_zephyr_prebuilt_script_target" />
+      <item itemvalue="CMake Application.offsets" />
+      <item itemvalue="CMake Application.offsets_h" />
+      <item itemvalue="CMake Application.parse_syscalls_target" />
+      <item itemvalue="CMake Application.run" />
+      <item itemvalue="CMake Application.syscall_list_h_target" />
+      <item itemvalue="CMake Application.version_h" />
+      <item itemvalue="CMake Application.zephyr" />
+      <item itemvalue="CMake Application.zephyr_final" />
+      <item itemvalue="CMake Application.zephyr_generated_headers" />
+      <item itemvalue="CMake Application.zephyr_pre0" />
+      <item itemvalue="CMake Application.zephyr_pre1" />
+      <item itemvalue="CMake Application.arch__arm__core__aarch32" />
+      <item itemvalue="CMake Application.arch__arm__core__aarch32__cortex_m" />
+      <item itemvalue="CMake Application.arch__arm__core__aarch32__mpu" />
+      <item itemvalue="CMake Application.arch__common" />
+      <item itemvalue="CMake Application.isr_tables" />
+      <item itemvalue="CMake Application.boards__arm__arduino_nano_33_ble" />
+      <item itemvalue="CMake Application.attach" />
+      <item itemvalue="CMake Application.debug" />
+      <item itemvalue="CMake Application.debugserver" />
+      <item itemvalue="CMake Application.flash" />
+      <item itemvalue="CMake Application.footprint" />
+      <item itemvalue="CMake Application.ram_report" />
+      <item itemvalue="CMake Application.rom_report" />
+      <item itemvalue="CMake Application.usage" />
+      <item itemvalue="CMake Application.drivers__clock_control" />
+      <item itemvalue="CMake Application.drivers__console" />
+      <item itemvalue="CMake Application.drivers__gpio" />
+      <item itemvalue="CMake Application.drivers__interrupt_controller" />
+      <item itemvalue="CMake Application.drivers__pinctrl" />
+      <item itemvalue="CMake Application.drivers__serial" />
+      <item itemvalue="CMake Application.drivers__timer" />
+      <item itemvalue="CMake Application.kernel" />
+      <item itemvalue="CMake Application.lib__libc__common" />
+      <item itemvalue="CMake Application.lib__libc__minimal" />
+      <item itemvalue="CMake Application.lib__posix" />
+      <item itemvalue="CMake Application.modules__hal_nordic__nrfx" />
+      <item itemvalue="CMake Application.soc__arm__common__cortex_m" />
+      <item itemvalue="CMake Application.soc__arm__nordic_nrf__nrf52" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94c9e4ec-8ecd-4849-8380-b516d439abac" name="Changes" comment="" />
+      <created>1686557468603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686557468603</updated>
+      <workItem from="1686557479524" duration="12431000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

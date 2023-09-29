@@ -1,0 +1,5 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/nano33_mqtt_client">
+<file alias="main.qml">D:/github_g/Arduino-Nano-33-BLE-test/android_app/nano33_mqtt_client/nano33_mqtt_client/main.qml</file>
+</qresource>
+</RCC>
